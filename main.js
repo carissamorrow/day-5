@@ -21,12 +21,33 @@ let carissa = {
       },
     }
   }
-}//object
+}
+let chris = {
+  name: "Chris",
+  age: 32,
+  favoriteColor: "blue",
+  male: true,
+  friends: ["carissa"]
+}
+let natalie = {
+  name: "Natalie",
+  age: 62,
+  favoriteColor: "pink",
+  male: false,
+  friends: ["carissa, chris"]
+}
+let joseph = {
+  name: "Joe",
+  age: 62,
+  favoriteColor: "blue",
+  male: true,
+  friends: ["carissa, chris, natalie"]
+}
 
 
 //array(aka lists or collections)
 let humans = [carissa]
 
 let story1 = `my name is ${carissa.name} and my favorite color is ${carissa.favoriteColor}`
-
-console.log(story1)
+let story2 = `my name is ${chris.name} and my favorite color is ${chris.favoriteColor}`
+console.log(story2)
