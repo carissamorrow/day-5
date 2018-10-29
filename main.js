@@ -3,24 +3,6 @@ let carissa = {
   age: 30,
   favoriteColor: "green",
   male: false,
-  // eyes: {
-  //   left: {
-  //     color: "green",
-  //     vision: "20/20"
-  //   },
-  //   right: {
-  //     color: "green",
-  //     vision: "20/20"
-  //   },
-  //   pets: {
-  //     dog1: {
-  //       name: "Tucker"
-  //     },
-  //     dog2: {
-  //       name: "Brody"
-  //     },
-  //   }
-  // },
   friends: []
 }
 let chris = {
@@ -55,3 +37,5 @@ console.log(story1)
 
 let story2 = `my name is ${chris.name} an my favorite age is ${chris.age}`
 console.log(story2)
+
+console.log(humans["2"].name + "has" + humans["2"].friends.length + "friends")
